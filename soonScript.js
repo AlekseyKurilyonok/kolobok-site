@@ -5,7 +5,7 @@ back.addEventListener("click", () => {
     window.location.replace("index.html")
 })
 
-fetch("http://localhost:2000/fields/soon")
+fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/soon")
 .then(r => r.json())
 .then(data => {
     if("message" in data){
