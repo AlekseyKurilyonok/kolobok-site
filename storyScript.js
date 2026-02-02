@@ -12,7 +12,7 @@ back.addEventListener("click", () => {
 
 
 if (nam){
-    fetch(`http://localhost:2000/stories/${origi}/${nam}`)
+    fetch(`https://noninherently-nonpsychologic-williams.ngrok-free.dev/stories/${origi}/${nam}`)
     .then(r => r.json())
     .then(data => {
         if ("message" in data){
