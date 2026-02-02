@@ -3,7 +3,7 @@ const main = document.getElementById("main")
 const params = new URLSearchParams(window.location.search)
 const nam = params.get("name")
 const back = document.getElementById("back")
-fetch(`http://localhost:2000/stories/${nam}`)
+fetch(`https://noninherently-nonpsychologic-williams.ngrok-free.dev/stories/${nam}`)
 .then(r => r.json())
 .then(data => {
     if ('message' in data){
