@@ -1,5 +1,5 @@
 let w = document.getElementById("winners")
-fetch("http://localhost:2000/fields/winners")
+fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
 .then(r => r.json())
 .then(data => {
     if ("text" in data){
