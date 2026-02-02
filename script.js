@@ -1,7 +1,8 @@
 let w = document.getElementById("winners")
 fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
-.then(r => r.json())
+.then(r => r.text())
 .then(data => {
+    return alert(data)
     if ("text" in data){
         w.textContent = data.text;
     } else if ("message" in data) {
