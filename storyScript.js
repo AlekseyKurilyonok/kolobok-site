@@ -12,7 +12,7 @@ back.addEventListener("click", () => {
 
 
 if (nam){
-    fetch(`https://noninherently-nonpsychologic-williams.ngrok-free.dev/stories/${origi}/${nam}`)
+    fetch(`https://employment-stripes-screening-compression.trycloudflare.com/stories/${origi}/${nam}`)
     .then(r => r.json())
     .then(data => {
         if ("message" in data){
