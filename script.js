@@ -1,5 +1,4 @@
 let w = document.getElementById("winners")
-console.log("обновляется")
 fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
 .then(r => r.json())
 .then(data => {
