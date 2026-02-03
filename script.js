@@ -1,7 +1,11 @@
 let w = document.getElementById("winners")
 console.log("обновляется")
 fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
-.then(r => r.text())
+.then(r => {
+    console.log("STATUS", r.status)
+    console.log("TYPE", r.headers.get("content-type"))
+    return r.text()
+})
 .then(data => {
     return alert(data)
     if ("text" in data){
