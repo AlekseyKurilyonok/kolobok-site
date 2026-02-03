@@ -1,5 +1,5 @@
 let w = document.getElementById("winners")
-fetch("https://frog-farms-miscellaneous-surge.trycloudflare.com/fields/winners")
+fetch("https://employment-stripes-screening-compression.trycloudflare.com/fields/winners")
 .then(r => r.json())
 .then(data => {
     if ("text" in data){
