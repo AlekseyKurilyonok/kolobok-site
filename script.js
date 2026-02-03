@@ -3,7 +3,7 @@ fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winne
 .then(r => r.json())
 .then(data => {
     if ("text" in data){
-        console.loog(data.text)
+        console.log(data.text)
         w.textContent = data.text;
         console.log(w.textContent)
     } else if ("message" in data) {
