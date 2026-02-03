@@ -1,8 +1,7 @@
 let w = document.getElementById("winners")
-fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
-.then(r => r.text())
+fetch("https://frog-farms-miscellaneous-surge.trycloudflare.com/fields/winners")
+.then(r => r.json())
 .then(data => {
-    return console.log(data)
     if ("text" in data){
         console.log(data.text)
         w.textContent = data.text;
