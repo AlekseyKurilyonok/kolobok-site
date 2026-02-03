@@ -3,7 +3,7 @@ const main = document.getElementById("main")
 const params = new URLSearchParams(window.location.search)
 const nam = params.get("name")
 const back = document.getElementById("back")
-fetch(`https://noninherently-nonpsychologic-williams.ngrok-free.dev/stories/${nam}`)
+fetch(`https://employment-stripes-screening-compression.trycloudflare.com/stories/${nam}`)
 .then(r => r.json())
 .then(data => {
     if ('message' in data){
