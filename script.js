@@ -1,6 +1,6 @@
 let w = document.getElementById("winners")
 console.log("обновляется")
-fetch("http://localhost:2000/fields/winners")
+fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/winners")
 .then(r => {
     console.log("STATUS", r.status)
     console.log("TYPE", r.headers.get("content-type"))
