@@ -5,7 +5,7 @@ back.addEventListener("click", () => {
     window.location.replace("index.html")
 })
 
-fetch("https://noninherently-nonpsychologic-williams.ngrok-free.dev/fields/soon")
+fetch("https://employment-stripes-screening-compression.trycloudflare.com/fields/soon")
 .then(r => r.json())
 .then(data => {
     if("message" in data){
