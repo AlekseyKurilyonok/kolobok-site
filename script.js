@@ -3,9 +3,7 @@ fetch("https://frog-farms-miscellaneous-surge.trycloudflare.com/fields/winners")
 .then(r => r.json())
 .then(data => {
     if ("text" in data){
-        console.log(data.text)
-        w.textContent = data.text;
-        console.log(w.textContent)
+        w.textContent = data.text
     } else if ("message" in data) {
         alert(data.message)
     }
