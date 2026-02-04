@@ -12,7 +12,7 @@ back.addEventListener("click", () => {
 
 
 if (nam){
-    fetch(`https://employment-stripes-screening-compression.trycloudflare.com/stories/${origi}/${nam}`)
+    fetch(`https://voluminous-nerte-sofaknight-5a685afe.koyeb.app/kolobok-serverAPI/stories/${origi}/${nam}`)
     .then(r => r.json())
     .then(data => {
         if ("message" in data){
