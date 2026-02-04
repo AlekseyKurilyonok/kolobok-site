@@ -3,7 +3,7 @@ const main = document.getElementById("main")
 const params = new URLSearchParams(window.location.search)
 const nam = params.get("name")
 const back = document.getElementById("back")
-fetch(`https://employment-stripes-screening-compression.trycloudflare.com/stories/${nam}`)
+fetch(`https://voluminous-nerte-sofaknight-5a685afe.koyeb.app/kolobok-serverAPI/stories/${nam}`)
 .then(r => r.json())
 .then(data => {
     if ('message' in data){
