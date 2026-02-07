@@ -12,7 +12,7 @@ back.addEventListener("click", () => {
 
 
 if (nam){
-    fetch(`https://voluminous-nerte-sofaknight-5a685afe.koyeb.app/kolobok-serverAPI/stories/${origi}/${nam}`)
+    fetch(`https://kolobok-server-production.up.railway.app/stories/${origi}/${nam}`)
     .then(r => r.json())
     .then(data => {
         if ("message" in data){
