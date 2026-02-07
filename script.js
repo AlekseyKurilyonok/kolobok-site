@@ -1,5 +1,5 @@
 let w = document.getElementById("winners")
-fetch("https://voluminous-nerte-sofaknight-5a685afe.koyeb.app/kolobok-serverAPI/fields/winners")
+fetch("https://kolobok-server-production.up.railway.app/kolobok-serverAPI/fields/winners")
 .then(r => r.json())
 .then(data => {
     if ("text" in data){
