@@ -5,7 +5,7 @@ back.addEventListener("click", () => {
     window.location.replace("index.html")
 })
 
-fetch("https://voluminous-nerte-sofaknight-5a685afe.koyeb.app/kolobok-serverAPI/fields/soon")
+fetch("https://kolobok-server-production.up.railway.app/fields/soon")
 .then(r => r.json())
 .then(data => {
     if("message" in data){
