@@ -20,7 +20,7 @@ if (nam){
         }
         else{
             title.textContent = data.name
-            story.textContent = data.story.replace("\n", "<br>")
+            story.textContent = data.story
         }
     })
 }
