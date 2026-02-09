@@ -60,7 +60,6 @@ main{
     min-height: min(94.48818897637794vw, 224.5789145352464vh);
     border: min(0.2624671916010499vw, 0.6238303181534623vh) solid gray;
     font-size: min(1.574803149606299vw, 3.742981908920774vh);
-    white-space: pre-wrap;
 }
 #back{
     position: absolute;
